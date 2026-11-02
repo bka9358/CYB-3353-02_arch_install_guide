@@ -83,7 +83,8 @@
 
 ### Network Configuration
 
-1. Install `NetworkManager` with `pacman -S networkmanager` and enable it with `systemctl enable NetworkManager.service`
+1. Install `NetworkManager` with `pacman -S networkmanager` and enable it with `systemctl enable NetworkManager.service`.
+
 2. Set the hostname with `echo "<HOSTNAME>" > /etc/hostname`, where `<HOSTNAME>` is the name for the system (such as `smith-laptop`).
 
 ### User Configuration
