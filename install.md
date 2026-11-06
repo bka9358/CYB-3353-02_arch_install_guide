@@ -48,9 +48,9 @@
 
 1. Format the swap partition with `mkswap /dev/<DISK>1`.
 
-2. Format the system partion with `mkfs.ext4 /dev/<DISK>2`.
+2. Format the system partition with `mkfs.ext4 /dev/<DISK>2`.
 
-3. Mount the system partion with `mount /dev/<DISK>2 /mnt`.
+3. Mount the system partition with `mount /dev/<DISK>2 /mnt`.
 
 4. Mount the swap partition with `swapon /dev/<DISK>1`.
 
